@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.banner_h2 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.about_h2,
+.yoga_h2,
+.founders_h2 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: #15392e;
+  font-family: 1rem;
+}
+li {
+  font-family: 'Condor', sans-serif;
+  color: #5fa887;
+  text-transform: uppercase;
+}
+.h4_name {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: #15392e;
+  font-family: 1rem;
+}
+p {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+  color: #464646;
+}
+.p_about,
+.p_yoga {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+  color: #464646;
+}
+.p_banner {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.button {
+  background-color: #15392e;
+  color: white;
+  border-radius: 4%;
+  text-transform: uppercase;
+  border-style: none;
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1.4rem;
+  padding: 2.5%;
+}
+footer {
+  font-family: 'Condor', sans-serif;
+  color: white;
+}
+footer h3,
+footer .h3_connect {
+  text-transform: uppercase;
+}
+footer .p_footer {
+  color: white;
+  font-family: 'Condor', sans-serif;
+}
+/* Header styling */
+header {
+  background-color: #15392e;
+  padding: 4%;
+}
+nav ul {
+  list-style-type: none;
+  /* display: none; */
+}
+/* Hero image styling */
+img {
+  max-width: 100%;
+}
+.hero_over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -67%;
+}
+.logo {
+  width: 30%;
+}
+#join_btn {
+  width: 40%;
+  margin-top: 17%;
+}
+/* Banner styling */
+#banner {
+  margin-top: 9%;
+  text-align: center;
+}
+#banner .change {
+  background-color: #4a1f52;
+}
+#banner .community {
+  background-color: #5fa887;
+}
+#banner .action {
+  background-color: #194c61;
+}
+#banner h2,
+#banner p {
+  padding: 2%;
+}
+/* About styling */
+.about_overlay {
+  margin-top: -17%;
+  margin-left: 3%;
+}
+.about_h2 {
+  padding: 8% 4%;
+}
+.p_about {
+  padding-left: 10%;
+}
+.founders_h2 {
+  text-align: center;
+  margin: 10%;
+}
+.founders p {
+  padding: 3%;
+}
+.seane,
+.suzanne,
+.hara {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3%;
+}
+h4 {
+  padding: 2%;
+}
+/* Yoga styling */
+.yoga_overlay {
+  margin-top: -20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.yoga_h2 {
+  text-align: center;
+  margin: 10%;
+}
+.p_yoga {
+  padding: 0 3% 6% 3%;
+}
+.pose {
+  width: 85%;
+  padding-left: 7.5%;
+  margin-bottom: 3%;
+}
+/* Footer styling */
+footer {
+  background-color: #464646;
+  display: inline-flex;
+  width: 100%;
+}
+footer .connect {
+  padding: 12% 0 8% 4%;
+}
+footer .sm {
+  width: 35%;
+  padding: 1.5% 15%;
+  display: flex;
+  flex-direction: column;
+}
+footer .h3_connect {
+  padding-bottom: 25%;
+}
+footer .logo_footer {
+  /*width: 38%;
+        margin-top: 20%;
+        margin-left: 3%;
+        */
+  display: none;
+}
+footer .contact_footer {
+  padding: 12% 1% 3% 6%;
+}
+footer .otm_footer {
+  padding: 10% 0%;
+}
+footer .address_footer {
+  margin-top: 5%;
+}

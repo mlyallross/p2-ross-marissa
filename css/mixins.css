@@ -16,13 +16,22 @@ li {
   color: #5fa887;
   text-transform: uppercase;
 }
+.h4_name {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: #15392e;
+  font-family: 1rem;
+}
 p {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   font-size: 1rem;
+  color: #464646;
 }
-.p_about {
+.p_about,
+.p_yoga {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   font-size: 1rem;
+  color: #464646;
 }
 .p_banner {
   font-family: 'Sweet Sans Pro Light', sans-serif;
@@ -43,6 +52,11 @@ footer {
   font-family: 'Condor', sans-serif;
   color: white;
 }
-footer h3 {
+footer h3,
+footer .h3_connect {
   text-transform: uppercase;
+}
+footer .p_footer {
+  color: white;
+  font-family: 'Condor', sans-serif;
 }
