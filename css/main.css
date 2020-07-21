@@ -68,11 +68,56 @@ footer .p_footer {
 /* Header styling */
 header {
   background-color: #15392e;
-  padding: 4%;
+  padding: 8% 0%;
+}
+.logo2 {
+  padding: 0 2%;
+  width: 45%;
+  margin-left: 2%;
 }
 nav ul {
   list-style-type: none;
   /* display: none; */
+}
+/* Sticky header styling */
+.sticky_header {
+  background-color: #15392e;
+  padding: 8% 0%;
+  z-index: 9999;
+  position: fixed;
+  box-sizing: border-box;
+}
+.logo2 {
+  padding: 0 2%;
+  width: 45%;
+  margin-left: 2%;
+}
+nav ul {
+  list-style-type: none;
+  /* display: none; */
+}
+/* Hamburger menu styling */
+.menu {
+  display: none;
+  text-align: center;
+  margin-top: 4%;
+}
+li {
+  padding: 1%;
+}
+ul a li:hover {
+  text-decoration: underline;
+  color: white;
+}
+.hamburger_btn {
+  width: 15%;
+  padding-left: 30%;
+}
+/* Main styling */
+.sticky_body {
+  margin-top: 104.5px;
+  box-sizing: border-box;
+  position: absolute;
 }
 /* Hero image styling */
 img {
@@ -155,7 +200,7 @@ h4 {
 .pose {
   width: 85%;
   padding-left: 7.5%;
-  margin-bottom: 3%;
+  margin-bottom: 6%;
 }
 /* Footer styling */
 footer {

@@ -11,10 +11,7 @@
 header {
     background-color: @dark-green;
     padding: 8% 0%;
-    z-index: 9999;
-    position: fixed;
-    box-sizing: border-box;
-}
+}  
 
 .logo2 {
     padding: 0 2%;
@@ -25,7 +22,28 @@ header {
 nav ul {
         list-style-type: none;
         /* display: none; */
-    }
+}
+
+/* Sticky header styling */
+
+.sticky_header {
+    background-color: @dark-green;
+    padding: 8% 0%;
+    z-index: 9999;
+    position: fixed;
+    box-sizing: border-box;
+}  
+
+.logo2 {
+    padding: 0 2%;
+    width: 45%;
+    margin-left: 2%;
+}
+
+nav ul {
+        list-style-type: none;
+        /* display: none; */
+}
 
 /* Hamburger menu styling */
 
@@ -50,10 +68,10 @@ ul a li:hover {
 }
 
 /* Main styling */
-main {
+.sticky_body {
+    margin-top: 104.5px;
     box-sizing: border-box;
     position: absolute;
-    margin-top: 104.5px;
 }
 
 /* Hero image styling */    
