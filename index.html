@@ -16,11 +16,11 @@
 
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <a href="#about_section"><li>ABOUT</li></a>
-                    <a href="#yoga_section"><li>YOGA IN ACTION</li></a>
-                    <li>EVENTS</li>
-                    <li>CONTACT</li>
+                    <li>Home</li>
+                    <a href="#about_section"><li>About</li></a>
+                    <a href="#yoga_section"><li>Yoga in Action</li></a>
+                    <li>Events</li>
+                    <li>Contact</li>
                 </ul>
             </nav>
         </header>
@@ -30,24 +30,28 @@
             <!--homepage-->
             <section id="hero">
                 <img class="hero_image" src="images/heroimage.png" alt="offthemat" title="offthemat" />
-                <img class="logo" src="images/logo.png" alt="logo" title="logo" />
-                <img class="join" src="images/join_btn.png" alt="joinus" title="joinus" />
+
+                <div class="hero_over">
+                    <img class="logo" src="images/logo.png" alt="logo" title="logo" />
+                    <!-- <img class="join" src="images/join_btn.png" alt="joinus" title="joinus" /> -->
+                    <button class="button" id="join_btn">Join Us</button>
+                </div>
             </section>
 
             <section id="banner">
                 <article class="change">
                     <h2 class="banner_h2">Change</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
+                    <p class="p_banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
                 </article>
 
                 <article class="community">
                     <h2 class="banner_h2">Community</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
+                    <p class="p_banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
                 </article>
 
                 <article class="action">
                     <h2 class="banner_h2">Action</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
+                    <p class="p_banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima corporis eaque assumenda quo tenetur voluptatibus incidunt amet, est repudiandae hic, molestiae sed dicta minus aliquid autem explicabo, iure odit.</p>
                 </article>
 
             </section>
@@ -56,37 +60,47 @@
             <a id="about_section"><section id="about">
                 <div class="about_read_less">
                     <img class="about_hero" src="images/about1.png" alt="meditation" title="meditation" />
-                    <img class="about_btn" src="images/about_btn.png" alt="about" title="about" />
+                    <!-- <img class="about_btn" src="images/about_btn.png" alt="about" title="about" /> -->
+                    <div class="about_overlay">
+                        <button class="button" id="about_btn">Our Team</button>
+                    </div>
                 </div>
                 
                 <div class="about_read_more">
                     <article class="about">
                         <section class="who">
                             <h2 class="about_h2">Who We Are</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus harum itaque aliquam, labore beatae quasi obcaecati voluptates officiis sunt non, culpa hic numquam quo praesentium eaque, temporibus rerum ratione magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.</p>
+                            <p class="p_about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus harum itaque aliquam, labore beatae quasi obcaecati voluptates officiis sunt non, culpa hic numquam quo praesentium eaque, temporibus rerum ratione magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.</p>
                         </section>
 
                         <section class="what">
                             <h2 class="about_h2">What We Do</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus harum itaque aliquam, labore beatae quasi obcaecati voluptates officiis sunt non, culpa hic numquam quo praesentium eaque, temporibus rerum ratione magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.</p>
+                            <p class="p_about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus harum itaque aliquam, labore beatae quasi obcaecati voluptates officiis sunt non, culpa hic numquam quo praesentium eaque, temporibus rerum ratione magni.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.</p>
                         </section>
                     </article>
 
                     <article class="founders">
-                        <section class="seane">
-                            <img class="seane_pic" src="images/found_1.png" title="seane" alt="seane" />
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
-                        </section>
+                        <h2 class="founders_h2">Founders</h2>
 
-                        <section class="suzanne">
-                            <img class="suzanne_pic" src="images/found_2.png" title="suzanne" alt="suzanne" />
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
-                        </section>
+                        <div class="founders_bio">
+                            <section class="seane">
+                                <img class="seane_pic" src="images/found_1.png" title="seane" alt="seane" />
+                                <h4 class="h4_name">Seane Corn</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
+                            </section>
 
-                        <section class="hara">
-                            <img class="hara_pic" src="images/found_3.png" title="hara" alt="hara" />
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
-                        </section>
+                            <section class="suzanne">
+                                <img class="suzanne_pic" src="images/found_2.png" title="suzanne" alt="suzanne" />
+                                <h4 class="h4_name">Suzanne Sterling</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
+                            </section>
+
+                            <section class="hara">
+                                <img class="hara_pic" src="images/found_3.png" title="hara" alt="hara" />
+                                <h4 class="h4_name">Hala Khouri</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione minus ipsum explicabo? Dolor adipisci culpa deleniti repellat facere aspernatur earum eius asperiores saepe! Itaque odit sint repellat dignissimos ea in?</p>
+                            </section>
+                        </div>
                     </article>
 
                     <article class="api">
@@ -99,13 +113,18 @@
             <a id="yoga_section"><section id="yoga">
                 <div class="yoga_read_less">
                     <img class="yoga_hero" src="images/yoga1.png" alt="yoga" title="yoga" />
-                    <img class="yoga_btn" src="images/yoga_btn.png" alt="yoga" title="yoga" />
+                    <!-- <img class="yoga_btn" src="images/yoga_btn.png" alt="yoga" title="yoga" /> -->
+                    <div class="yoga_overlay">
+                        <button class="button" id="yoga_btn">Yoga in Action</button>
+                    </div>
                 </div>
                 
                 <div class="yoga_read_more">
                     <article class="yoga_in_action">
                         <h2 class="yoga_h2">Yoga in Action</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.</p>
+                        <p class="p_yoga">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            
+                        <p class="p_yoga">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores. Sequi cumque culpa voluptatum voluptate magnam nemo libero reprehenderit ea aut optio, rem molestiae molestias facere nihil ad atque omnis pariatur asperiores.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </article>
 
                     <img class="pose" src="images/otm_yoga2.png" title="yoga" alt="yoga" />
@@ -116,7 +135,7 @@
         <!--footer-->
         <footer>
             <section class="connect">
-                <h3>Connect</h3>
+                <h3 class="h3_connect">Connect</h3>
                 <img class="sm" src="images/otm_ig.png" alt="ig" title="ig" />
                 <img class="sm" src="images/otm_twitter.png" alt="twitter" title="twitter" />
                 <img class="sm" src="images/otm_fb.png" alt="fb" title="fb" />
@@ -127,13 +146,17 @@
             </section>
 
             <section class="contact_footer">
-                <h3>Contact</h3>
-                <h4>OFF THE MAT,</h4> 
-                <h4>INTO THE WORLD</h4>
+                <h3 class="h3_contact">Contact</h3>
+                <div class="otm_footer">
+                    <h4 class="h4_otm">OFF THE MAT,</h4> 
+                    <h4 class="h4_otm">INTO THE WORLD</h4>
+                </div>
 
-                <p>3435 Ocean Park Blvd.</p>
-                <p>Suite 107-C</p>
-                <p>Santa Montica, CA 90405</p>
+                <div class="address_footer">
+                    <p class="p_footer">3435 Ocean Park Blvd.</p>
+                    <p class="p_footer">Suite 107-C</p>
+                    <p class="p_footer">Santa Montica, CA 90405</p>
+                </div>
             </section>
         </footer>
 
