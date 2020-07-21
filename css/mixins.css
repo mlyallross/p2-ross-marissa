@@ -1,0 +1,48 @@
+.banner_h2 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.about_h2,
+.yoga_h2,
+.founders_h2 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  text-transform: uppercase;
+  color: #15392e;
+  font-family: 1rem;
+}
+li {
+  font-family: 'Condor', sans-serif;
+  color: #5fa887;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+}
+.p_about {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+}
+.p_banner {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+.button {
+  background-color: #15392e;
+  color: white;
+  border-radius: 4%;
+  text-transform: uppercase;
+  border-style: none;
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1.4rem;
+  padding: 2.5%;
+}
+footer {
+  font-family: 'Condor', sans-serif;
+  color: white;
+}
+footer h3 {
+  text-transform: uppercase;
+}
