@@ -19,38 +19,24 @@ header {
     margin-left: 2%;
 }
 
-nav ul {
-        list-style-type: none;
-        /* display: none; */
+nav ul li{
+    list-style-type: none;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 /* Sticky header styling */
 
-.sticky_header {
-    background-color: @dark-green;
-    padding: 8% 0%;
+.sticky {
     z-index: 9999;
     position: fixed;
-    box-sizing: border-box;
 }  
-
-.logo2 {
-    padding: 0 2%;
-    width: 45%;
-    margin-left: 2%;
-}
-
-nav ul {
-        list-style-type: none;
-        /* display: none; */
-}
 
 /* Hamburger menu styling */
 
 .menu {
-    display: none;
     text-align: center;
     margin-top: 4%;
 }
@@ -67,13 +53,6 @@ ul a li:hover {
 .hamburger_btn {
     width: 15%;
     padding-left: 30%;
-}
-
-/* Main styling */
-.sticky_body {
-    margin-top: 104.5px;
-    box-sizing: border-box;
-    position: absolute;
 }
 
 /* Hero image styling */    
@@ -237,10 +216,95 @@ footer {
     }
 }
 
-/* start iPad 768px min width media query */
+/* start iPad 768px media query */
 @media (min-width:768px) {
     /* Header styling */
-    .sticky_header {
-        width: 100%;
+
+    .logo2 {
+        width: 30%;
+    }
+
+    li {
+        font-size: 1.3rem;
+    }
+
+    .hamburger_btn {
+        width: 10%;
+        padding-left: 50%;
+    }
+
+    /* Banner styling */
+    #banner {
+        margin-top: 13%;
+    }
+
+    /* About styling */
+    .about {
+        display: inline-flex;
+        margin-top: 4%;
+    }
+
+    .about_h2 {
+        padding: 8% 4%;
+    }
+    
+    section .who, .what {
+        width: 40%;
+        padding: 3%;
+    }
+
+    .seane_pic, .suzanne_pic, .hara_pic {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    /*Yoga styling */
+    .yoga_in_action {
+        display: inline-flex;
+    }
+
+    .yoga_h2 {
+        margin-top: 15%;
+    }
+
+    /* Footer styling */
+    
+    footer {
+
+        justify-content: space-between;
+       
+        .connect {
+            padding: 12% 0 3% 3%;
+    
+        }
+        .sm {
+            width: 15%;
+            padding: 1% 1%;
+            display: inline-flex;
+        }
+    
+        .h3_connect {
+            padding-bottom: 25%;
+        } 
+    
+        .logo_footer {
+            display: inline-flex;
+            margin: 12% 0 8% -13%;
+            width: 30%;
+        }
+
+    
+        .contact_footer {
+            padding: 12% 5% 3% 7%;
+        }
+    
+        .otm_footer {
+            padding: 10% 0%;
+        }
+    
+        .address_footer{
+            margin-top: 5%;
+            
+        }
     }
 }
