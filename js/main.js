@@ -1,5 +1,6 @@
-
 /* hamburger menu */
+
+
 var menu = document.querySelector('.menu');
 var menuToggle = document.querySelector('.menuToggle');
 
@@ -77,3 +78,16 @@ window.addEventListener('scroll', function() {
   );
 
 /* API */
+
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var apiResult = JSON.parse(this.responseText);
+
+        var weather = document.getElementById('weather-span');
+        weather.innerHTML = apiResult.wind.speed;
+    }
+};
+xmlhttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=85225,us&appid=6efff70fe1477748e31c17d1c504635f', true);
+xmlhttp.send();
+

@@ -10,11 +10,17 @@
 }
 .about_h2,
 .yoga_h2,
-.founders_h2 {
+.founders_h2,
+.class_h2 {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   text-transform: uppercase;
   color: #15392e;
   font-family: 1rem;
+}
+.class_h3 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  color: #15392e;
+  font-family: .8rem;
 }
 li {
   font-family: 'Condor', sans-serif;
@@ -27,7 +33,8 @@ li {
   color: #15392e;
   font-family: 1rem;
 }
-p {
+p,
+#weather-span {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   font-size: 1rem;
   color: #464646;
@@ -53,6 +60,15 @@ p {
   font-size: 1.4rem;
   padding: 2.5%;
 }
+#about_close_btn,
+#yoga_close_btn {
+  background-color: #5fa887;
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  padding: 3%;
+  width: 100%;
+}
 footer {
   font-family: 'Condor', sans-serif;
   color: white;
@@ -75,30 +91,19 @@ header {
   width: 45%;
   margin-left: 2%;
 }
-nav ul {
+nav ul li {
   list-style-type: none;
-  /* display: none; */
+}
+a {
+  text-decoration: none;
 }
 /* Sticky header styling */
-.sticky_header {
-  background-color: #15392e;
-  padding: 8% 0%;
+.sticky {
   z-index: 9999;
   position: fixed;
-  box-sizing: border-box;
-}
-.logo2 {
-  padding: 0 2%;
-  width: 45%;
-  margin-left: 2%;
-}
-nav ul {
-  list-style-type: none;
-  /* display: none; */
 }
 /* Hamburger menu styling */
 .menu {
-  display: none;
   text-align: center;
   margin-top: 4%;
 }
@@ -112,12 +117,6 @@ ul a li:hover {
 .hamburger_btn {
   width: 15%;
   padding-left: 30%;
-}
-/* Main styling */
-.sticky_body {
-  margin-top: 104.5px;
-  box-sizing: border-box;
-  position: absolute;
 }
 /* Hero image styling */
 img {
@@ -162,6 +161,9 @@ img {
 .about_h2 {
   padding: 8% 4%;
 }
+#about_btn {
+  margin-bottom: 3%;
+}
 .p_about {
   padding-left: 10%;
 }
@@ -202,6 +204,20 @@ h4 {
   padding-left: 7.5%;
   margin-bottom: 6%;
 }
+#yoga_btn {
+  margin-bottom: 3%;
+}
+.api {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.class_h3 {
+  margin-top: 3%;
+}
+/* Read more | Read less styling */
+#arrow {
+  padding: 4%;
+}
 /* Footer styling */
 footer {
   background-color: #464646;
@@ -235,4 +251,183 @@ footer .otm_footer {
 }
 footer .address_footer {
   margin-top: 5%;
+}
+/* start iPad 768px media query */
+@media (min-width: 768px) {
+  /* Header styling */
+  .logo2 {
+    width: 30%;
+  }
+  li {
+    font-size: 1.3rem;
+  }
+  .hamburger_btn {
+    width: 10%;
+    padding-left: 50%;
+  }
+  /* Banner styling */
+  #banner {
+    margin-top: 13%;
+  }
+  /* About styling */
+  .about {
+    display: inline-flex;
+    margin-top: 4%;
+  }
+  .about_h2 {
+    padding: 8% 4%;
+  }
+  section .who,
+  .what {
+    width: 40%;
+    padding: 3%;
+  }
+  .seane_pic,
+  .suzanne_pic,
+  .hara_pic {
+    width: 35%;
+  }
+  .seane_about {
+    margin-top: 2%;
+  }
+  .suzanne_about {
+    margin-top: 7%;
+  }
+  .hara_about {
+    margin-top: 10%;
+  }
+  .seane,
+  .suzanne,
+  .hara {
+    display: flex;
+    flex-direction: row;
+  }
+  /*Yoga styling */
+  .yoga_in_action {
+    display: inline-flex;
+  }
+  .yoga_h2 {
+    margin-top: 15%;
+  }
+  /* Footer styling */
+  footer {
+    justify-content: space-between;
+  }
+  footer .connect {
+    padding: 12% 0 3% 3%;
+  }
+  footer .sm {
+    width: 15%;
+    padding: 1% 1%;
+    display: inline-flex;
+  }
+  footer .h3_connect {
+    padding-bottom: 25%;
+  }
+  footer .logo_footer {
+    display: inline-flex;
+    margin: 12% 0 8% -13%;
+    width: 30%;
+  }
+  footer .contact_footer {
+    padding: 12% 5% 3% 7%;
+  }
+  footer .otm_footer {
+    padding: 10% 0%;
+  }
+  footer .address_footer {
+    margin-top: 5%;
+  }
+}
+/*start desktop 1024px media query */
+@media (min-width: 1024px) {
+  /* Header styling */
+  header {
+    background-color: #15392e;
+    padding: 3% 0%;
+  }
+  .logo2 {
+    width: 23%;
+  }
+  li {
+    font-size: 1.3rem;
+  }
+  .hamburger_btn {
+    width: 8%;
+    padding-left: 88%;
+    margin-top: -18%;
+  }
+  /* Hero styling */
+  .logo {
+    width: 28%;
+  }
+  #join_btn {
+    width: 28%;
+    font-size: 3rem;
+  }
+  /* Banner styling */
+  #banner {
+    margin-top: 13%;
+    display: inline-flex;
+  }
+  .banner_h2 {
+    font-size: 2.2rem;
+  }
+  .change,
+  .community,
+  .action {
+    padding: 5%;
+  }
+  /* About styling */
+  .founders_bio {
+    display: flex;
+  }
+  #about_btn,
+  #yoga_btn {
+    font-size: 2rem;
+  }
+  .seane,
+  .suzanne,
+  .hara {
+    flex-direction: column;
+    align-items: center;
+  }
+  .founders_bio img {
+    width: 80%;
+  }
+  .hara {
+    margin-top: -8%;
+  }
+  .suzanne {
+    margin-top: -4%;
+  }
+  /* Footer styling */
+  footer {
+    justify-content: space-between;
+  }
+  footer .connect {
+    padding: 12% 0 3% 3%;
+  }
+  footer .sm {
+    width: 15%;
+    padding: 1% 1%;
+    display: inline-flex;
+  }
+  footer .h3_connect {
+    padding-bottom: 25%;
+  }
+  footer .logo_footer {
+    display: inline-flex;
+    margin: 12% 0 8% -5%;
+    width: 20%;
+  }
+  footer .contact_footer {
+    padding: 12% 5% 3% 7%;
+  }
+  footer .otm_footer {
+    padding: 10% 0%;
+  }
+  footer .address_footer {
+    margin-top: 5%;
+  }
 }

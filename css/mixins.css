@@ -5,11 +5,17 @@
 }
 .about_h2,
 .yoga_h2,
-.founders_h2 {
+.founders_h2,
+.class_h2 {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   text-transform: uppercase;
   color: #15392e;
   font-family: 1rem;
+}
+.class_h3 {
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  color: #15392e;
+  font-family: .8rem;
 }
 li {
   font-family: 'Condor', sans-serif;
@@ -22,7 +28,8 @@ li {
   color: #15392e;
   font-family: 1rem;
 }
-p {
+p,
+#weather-span {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   font-size: 1rem;
   color: #464646;
@@ -47,6 +54,15 @@ p {
   font-family: 'Sweet Sans Pro Light', sans-serif;
   font-size: 1.4rem;
   padding: 2.5%;
+}
+#about_close_btn,
+#yoga_close_btn {
+  background-color: #5fa887;
+  font-family: 'Sweet Sans Pro Light', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  padding: 3%;
+  width: 100%;
 }
 footer {
   font-family: 'Condor', sans-serif;
