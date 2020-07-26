@@ -1,5 +1,8 @@
 /* hamburger menu */
-
+window.addEventListener('load', 
+    function() {
+      document.querySelector('.menu').style.display = 'none';
+    });
 
 var menu = document.querySelector('.menu');
 var menuToggle = document.querySelector('.menuToggle');
